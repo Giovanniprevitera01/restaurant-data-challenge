@@ -20,20 +20,20 @@ Each row likely represents an item sold in a transaction. Multiple rows can have
 
 ---
 
-## 📚 Project Structure
+## Project Structure
 
 restaurant-analysis/
 ├── data/
-    └── transactions.csv
-    └── transactions.xls
-    └── Dataset_notes.pdf
+│ ├── transactions.csv
+│ ├── transactions.xls
+│ └── Dataset_notes.pdf
 ├── notebooks/
-│   └── EDA_and_Insights.ipynb
+│ └── EDA_and_Insights.ipynb
 ├── report/
-│   └── restaurant_report.pdf
-├── requirements.txt
+│ └── REPORT.pdf
 ├── app.py
-├── README.md
+├── requirements.txt
+└── README.md
 
 
 ---
