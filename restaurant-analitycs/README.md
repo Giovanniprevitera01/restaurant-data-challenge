@@ -40,18 +40,18 @@ restaurant-analysis/
 ## 🔧 How to Run the Project
 
 ### 1. Clone the Repository
-git clone https://github.com/Giovanniprevitera01/restaurant-task.git
-cd restaurant-task
+git clone https://github.com/Giovanniprevitera01/restaurant-data-challenge.git
+cd restaurant-data-challenge
 
 ### 2. Create and Activate Virtual Environment
 python3 -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate 
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
 
 ### 4. Run the Notebook
-jupyter notebook notebooks/EDA_and_Insights.ipynb
+jupyter notebook
 
 
 ## 📅 Key Analyses & Visualizations
