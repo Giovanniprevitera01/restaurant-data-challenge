@@ -32,6 +32,7 @@ restaurant-analysis/
 ├── report/
 │   └── restaurant_report.pdf
 ├── requirements.txt
+├── app.py
 ├── README.md
 
 
@@ -53,29 +54,63 @@ pip install -r requirements.txt
 ### 4. Run the Notebook
 jupyter notebook
 
+###5. Run the dashboard
+cd restaurant-analitycs
+pip install dash pandas plotly
+python app.py
+Vai su http://127.0.0.1:8050 per vedere la dashboard.
+
 
 ## 📅 Key Analyses & Visualizations
 
-1. 📈 **Trend delle vendite giornaliere**
-2. 🕒 **Distribuzione oraria delle vendite**
-3. 💳 **Scontrino medio per cliente**
-4. 🧑‍🍳 **Numero medio di ospiti per transazione**
-5. 🧵 **Analisi top 10 prodotti più venduti**
-6. 💰 **top 10 Prodotti con più incasso**
-7. 📋 **Ripartizione vendite per categoria**
-8. 📅 **Vendite per giorno della settimana**
-9. 📊 **Clustering Clienti (KMeans + PCA)**
+    📈 Daily Sales Trends
+
+    🕒 Hourly Sales Distribution
+
+    💳 Average Ticket per Customer
+
+    🧑‍🍳 Average Number of Guests per Transaction
+
+    🧵 Top 10 Best-Selling Products
+
+    💰 Top 10 Products by Revenue
+
+    📋 Sales Breakdown by Category
+
+    📅 Sales by Day of the Week
+
+    📊 Customer Clustering (KMeans + PCA)
 
 
 
-📊 Clustering Clienti (KMeans + PCA)
+🚀 Dashboard Features
 
-Abbiamo utilizzato KMeans clustering combinato con PCA per ridurre le dimensioni e visualizzare la segmentazione dei clienti. Il risultato ha identificato 4 gruppi principali:
+    📅 Date range filters
 
-    💸 Cluster 0 – Clienti top spender: spesa elevata, molti ospiti, ampia varietà di prodotti, prevalentemente cena.
+    🍽️ Product category filter
 
-    🧍 Cluster 1 – Clienti occasionali: bassa spesa e varietà, visite rapide e poco frequenti.
+    🚚 Order type filter: Dine-in / Takeaway-Delivery
 
-    🍱 Cluster 2 – Clienti da asporto: acquisti mirati, 100% delle transazioni fuori sede.
+    📈 Dynamic KPIs: Total Sales, Average Ticket, Number of Transactions
 
-    🍽️ Cluster 3 – Clienti “fedeli alla cena”: spesa media, alta incidenza sul servizio serale.
+    📊 Interactive Graphs
+
+        Daily Sales Trend
+
+        Top 10 Best-Selling Products (with names)
+
+        Sales by Day of the Week
+
+        Hourly Heatmap of Sales by Day
+
+📊 Customer Clustering (KMeans + PCA)
+
+We applied KMeans clustering combined with PCA for dimensionality reduction to visualize customer segmentation. This analysis identified 4 main customer groups:
+
+    💸 Cluster 0 – High Spenders: Large total spend, high number of guests, wide variety of products, primarily dinner service.
+
+    🧍 Cluster 1 – Occasional Customers: Low spend and variety, quick and infrequent visits.
+
+    🍱 Cluster 2 – Takeaway Customers: Focused purchases, 100% of transactions for off-premises consumption.
+
+    🍽️ Cluster 3 – Loyal Dinner Guests: Medium spend, high incidence of dinner service.
