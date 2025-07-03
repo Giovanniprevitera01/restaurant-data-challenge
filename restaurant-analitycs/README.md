@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ### 4. Run the Notebook
 jupyter notebook
 
-###5. Run the dashboard
+### 5. Run the dashboard
 cd restaurant-analitycs
 pip install dash pandas plotly
 python app.py
@@ -83,7 +83,7 @@ Vai su http://127.0.0.1:8050 per vedere la dashboard.
 
 
 
-🚀 Dashboard Features
+## 🚀 Dashboard Features
 
     📅 Date range filters
 
@@ -93,17 +93,17 @@ Vai su http://127.0.0.1:8050 per vedere la dashboard.
 
     📈 Dynamic KPIs: Total Sales, Average Ticket, Number of Transactions
 
-    📊 Interactive Graphs
+## 📊 Interactive Graphs
 
-        Daily Sales Trend
+        1.Daily Sales Trend
 
-        Top 10 Best-Selling Products (with names)
+        2.Top 10 Best-Selling Products (with names)
 
-        Sales by Day of the Week
+        3.Sales by Day of the Week
 
-        Hourly Heatmap of Sales by Day
+        4.Hourly Heatmap of Sales by Day
 
-📊 Customer Clustering (KMeans + PCA)
+## 📊 Customer Clustering (KMeans + PCA)
 
 We applied KMeans clustering combined with PCA for dimensionality reduction to visualize customer segmentation. This analysis identified 4 main customer groups:
 
