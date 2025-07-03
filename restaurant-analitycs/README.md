@@ -16,9 +16,23 @@ Each row likely represents an item sold in a transaction. Multiple rows can have
 
 ## Project Structure
 
-restaurant-analysis/ ├── data/ │ ├── transactions.csv │ ├── transactions.xls │ └── Dataset_notes.pdf ├── notebooks/ │ └── EDA_and_Insights.ipynb ├── report/ │ └── REPORT.pdf ├── app.py ├── requirements.txt └── README.md
+📁 restaurant-analysis/
+├── 📂 data/
+│   ├── transactions.csv
+│   ├── transactions.xls
+│   └── Dataset_notes.pdf
+├── 📂 notebooks/
+│   └── EDA_and_Insights.ipynb
+├── 📂 report/
+│   └── REPORT.pdf
+├── 📄 app.py
+├── 📄 requirements.txt
+├── 📄 README.md
+├── 📄 dashboard.gif
+
 
 ## 🔧 How to Run the Project
+
 ### 1. Clone the Repository
 git clone https://github.com/Giovanniprevitera01/restaurant-data-challenge.git 
 cd restaurant-data-challenge
@@ -39,35 +53,37 @@ pip install dash pandas plotly
 python app.py 
 Go to http://127.0.0.1:8050 to see the dashboard
 
+
 ## 📅 Key Analyses & Visualizations
 
-📈 Daily Sales Trends
+   📈 Daily Sales Trends
 
-🕒 Hourly Sales Distribution
+   🕒 Hourly Sales Distribution
 
-💳 Average Ticket per Customer
+   💳 Average Ticket per Customer
 
-🧑‍🍳 Average Number of Guests per Transaction
+   🧑‍🍳 Average Number of Guests per Transaction
 
-🧵 Top 10 Best-Selling Products
+   🧵 Top 10 Best-Selling Products
 
-💰 Top 10 Products by Revenue
+   💰 Top 10 Products by Revenue
 
-📋 Sales Breakdown by Category
+   📋 Sales Breakdown by Category
 
-📅 Sales by Day of the Week
+   📅 Sales by Day of the Week
 
- 📊 Customer Clustering (KMeans + PCA)
+   📊 Customer Clustering (KMeans + PCA)
+   
 
 ## 🚀 Dashboard Features
 
-📅 Date range filters
+   📅 Date range filters
 
-🍽️ Product category filter
+   🍽️ Product category filter
 
-🚚 Order type filter: Dine-in / Takeaway-Delivery
+   🚚 Order type filter: Dine-in / Takeaway-Delivery
 
-📈 Dynamic KPIs: Total Sales, Average Ticket, Number of Transactions
+   📈 Dynamic KPIs: Total Sales, Average Ticket, Number of Transactions
 
 
 ## 📊 Interactive Graphs
@@ -82,17 +98,18 @@ Go to http://127.0.0.1:8050 to see the dashboard
     
 ![Demo](dashboard.gif)
 
+
 ## 📊 Customer Clustering (KMeans + PCA)
 
 We applied KMeans clustering combined with PCA for dimensionality reduction to visualize customer segmentation. This analysis identified 4 main customer groups:
 
-💸 Cluster 0 – High Spenders: Large total spend, high number of guests, wide variety of products, primarily dinner service.
+   💸 Cluster 0 – High Spenders: Large total spend, high number of guests, wide variety of products, primarily dinner service.
 
-🧍 Cluster 1 – Occasional Customers: Low spend and variety, quick and infrequent visits.
+   🧍 Cluster 1 – Occasional Customers: Low spend and variety, quick and infrequent visits.
 
-🍱 Cluster 2 – Takeaway Customers: Focused purchases, 100% of transactions for off-premises consumption.
+   🍱 Cluster 2 – Takeaway Customers: Focused purchases, 100% of transactions for off-premises consumption.
 
-🍽️ Cluster 3 – Loyal Dinner Guests: Medium spend, high incidence of dinner service.
+   🍽️ Cluster 3 – Loyal Dinner Guests: Medium spend, high incidence of dinner service.
 
 
 
